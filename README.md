@@ -1,7 +1,7 @@
 # WebPDI
 Um simples app web para processamento de imagens utilizando FastApi e OpenCV.
 
-# How to run it
+# Como rodar
 
 1. Instale as dependências:
 
@@ -19,7 +19,7 @@ uvicorn main:app --reload
 
 ![](doc/images/home.png)
 
-Clique em "Escolher arquivo" e escolha uma imagem <b>em tons de cinza<b> para fazer upload. Depois, clique em "Enviar".
+Clique em "Escolher arquivo" e escolha uma imagem <b>em tons de cinza</b> para fazer upload. Depois, clique em "Enviar".
 
 Você será redirecionado para esta página:
 
