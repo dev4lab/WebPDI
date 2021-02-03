@@ -10,17 +10,32 @@
             <h1>EDITE SUA IMAGEM</h1>
             <h2>Digite os coeficientes de brilho e contraste</h2>
 
-            <img src="{{ url_for('static', path='/images/actual.png') }}" width="300" height="400">
-
-            <form action="/action_page.php">
-                <label for="fname">Brilho:</label>
-                <input type="text" id="fname" name="brilho"><br><br>
-                <label for="lname">Contraste:</label>
-                <input type="text" id="lname" name="contraste"><br><br>
-                <input type="submit" value="Submit">
-              </form>
-
         </center>
+
+        <div style="width: 100%; overflow: hidden;">
+
+            <div style="width: 600px; float: left;">
+
+                <img src="{{ url_for('static', path='/images/actual.png') }}" width="300" height="400">
+    
+                <form action="/change/">
+                    <label for="fname">Brilho:</label>
+                    <input type="text" id="fname" name="brilho"><br><br>
+                    <label for="lname">Contraste:</label>
+                    <input type="text" id="lname" name="contraste"><br><br>
+                    <input type="submit" value="Submit">
+                  </form>
+    
+            </div>
+            
+            <div style="margin-left: 620px;">
+                <img src="{{ url_for('static', path='/images/changed.png') }}" width="300" height="400">
+            </div>
+
+
+
+        </div>
+
     </body>
 
 
